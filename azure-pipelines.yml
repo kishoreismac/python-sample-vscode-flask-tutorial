@@ -20,7 +20,7 @@ steps:
 
 
 - script: |
-    python setup.py sdist
+    python startup.py sdist
   displayName: 'Artifact creation'
 
 - task: CopyFiles@2
